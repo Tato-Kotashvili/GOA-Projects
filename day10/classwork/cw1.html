@@ -1,0 +1,51 @@
+<!-- 1)შექმენით გოას საიტზე რეგისტრაციის ფორმა , სადაც მომხმარებელი შეიყვანს სახელს გვარს მეილს ასაკს უნდა აირჩიოს GENDER--> <!--MALE FEMALE. გამოიყენეთ checkbox ტიპის ინფუთი რომლითაც აირჩევთ გოას რამდენიმე კურსს , თუ რომელზე გინდათ სწავლა,ბოლოს დაამატეთ submit ტიპის ინფუთი -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOA registration form</title>
+</head>
+<body>
+    <h1>GOA Registration Form</h1>
+    <p>Please fill out the form below to register for our courses at GOA.</p>
+    <img src="download (2).jpg" alt="GOA Image">
+        
+        <h3>Also follow us on these</h3>
+        <a href="https://www.facebook.com/goa.georgia">Facebook</a><br>
+        <a href="https://www.instagram.com/goa.georgia/">Instagram</a><br>
+        <a href="https://www.linkedin.com/school/georgia-institute-of-technology/about/">LinkedIn</a><br>
+        <a href="https://twitter.com/goa_georgia">Twitter</a><br><br>
+        <form>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" /><br><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" /><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" /><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" /><br><br>
+
+            <label for="gender">Male</label>
+            <input type="radio" id="gender" name="gender" value="male" />
+            <label for="gender">Female</label>
+            <input type="radio" id="gender" name="gender" value="female" /><br><br>
+
+            <label for="courses">Select Courses:</label><br>
+            <input type="checkbox" id="course1" name="course1" value="Web Development" />
+            <label for="course1">Web Development</label><br>
+            <input type="checkbox" id="course2" name="course2" value="Game Development" />
+            <label for="course2">Game Development</label><br>
+            <input type="checkbox" id="course3" name="course3" value="Robotics" />
+            <label for="course3">Robotics</label><br><br>
+
+            <input type="submit" value="Register" />
+        </form>
+
+
+</body>
+</html>
