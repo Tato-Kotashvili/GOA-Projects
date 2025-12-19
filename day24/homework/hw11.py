@@ -1,0 +1,8 @@
+# 11)მოცემულია სია:
+# letters = ["a", "b", "c", "d", "e", "f"]
+# მინუს ინდექსის გამოყენებით დაბეჭდე მესამე ელემენტი .
+
+
+letters = ["a", "b", "c", "d", "e", "f"]
+third_element = letters[-4]
+print(third_element)
