@@ -7,7 +7,7 @@ for i in range(5):
     numbers.append(num)
     
 sum_numbers = 0
-for number in numbers:
-    sum_numbers = sum_numbers + number  
-print("რიცხვების ჯამი არის:", sum_numbers) 
+for i in range(len(numbers)):
+    sum_numbers = sum_numbers + numbers[i]
+print("რიცხვების ჯამი არის:", sum_numbers)
     
