@@ -1,0 +1,24 @@
+h4{
+    font-size: 40px;
+    color: purple;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    background-color: grey;
+    border-color: aqua;
+}
+p{
+    color: grey;
+    background-color: blue;
+    border-color: yellow;
+    text-align: right;
+    background-color: lightpink;
+    font-family: cursive;
+}
+button{
+    background-color: orange;
+    color:blue;
+    border-color: red;
+    font-size: 20px;
+    text-align: center;
+    background-color: lime;
+}

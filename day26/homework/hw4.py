@@ -4,8 +4,8 @@
 numbers = []
 while True:
     user_number = int(input("Enter a number: "))
-    if int(user_number) in numbers:
+    if user_number in numbers:
         break
     else:
-        numbers.append(int(user_number))
+        numbers.append(user_number)
 print(numbers)
