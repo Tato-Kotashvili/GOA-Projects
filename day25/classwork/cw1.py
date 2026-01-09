@@ -1,4 +1,4 @@
-for i in range(900):
+for i in range(1000):
     if i % 10 == 0:
         print(str(i) + " I love you <3")
 
