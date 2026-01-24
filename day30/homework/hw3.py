@@ -10,5 +10,7 @@ while country < len(countries):
         country -= 1
     else:
         countries[country] = countries[country].upper()
+        
     country += 1
+    
 print(countries)
