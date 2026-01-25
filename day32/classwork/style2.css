@@ -1,0 +1,21 @@
+.firstfourp {
+    color: red;
+    font-size: 20px;
+    background-color: purple;
+}
+
+.secondfourp {
+    color: blue;
+    font-size: 50px;
+    background-color: yellow;
+}
+
+.thirdfourp {
+    color: pink;
+    font-size: 30px;
+    background-color: green;
+}
+
+.allp {
+    border: 2px solid darkred;
+}
