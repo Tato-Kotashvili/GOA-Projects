@@ -1,0 +1,12 @@
+#header {
+    color: blue;
+    font-size: 24px;
+}
+.text {
+    color: green;
+    font-family: Arial, sans-serif;
+}
+ul {
+    color: red;
+    background-color: yellow;
+}
