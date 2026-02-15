@@ -1,0 +1,12 @@
+#p1 {
+    text-decoration-line: overline;
+}
+#p2 {
+    text-decoration-line: line-through;
+}
+#p3 {
+    text-decoration-line: underline;
+}
+#p4 {
+    text-decoration-line: none;
+}

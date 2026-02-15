@@ -1,0 +1,12 @@
+p {
+    text-align: center;
+}
+#p1 {
+    text-decoration: underline violet double;;
+}
+#p2 {
+    text-decoration: dashed line-through lime;
+}
+#p3 {
+    text-decoration: dotted overline navy
+}

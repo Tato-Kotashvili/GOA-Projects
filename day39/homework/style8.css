@@ -1,0 +1,9 @@
+body {
+    background-color: #000000;
+}
+h1 {
+    color: rgb(199, 253, 207);
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px -2px 10px lime;
+}
