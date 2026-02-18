@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Playwrite+NZ+Basic:wght@100..400&display=swap');
+
+h1 {
+    font-family: "Bitcount Grid Double", system-ui;
+}
+p {
+    font-family: "Playwrite NZ Basic", cursive;
+}
