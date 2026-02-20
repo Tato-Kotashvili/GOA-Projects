@@ -1,0 +1,27 @@
+#p1 {
+    color: green;
+    font-size: 35px;
+    font-weight: 200;
+}
+#p2 {
+    color: red;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+#p1:hover {
+    color: red;
+    font-size: 50px;
+    font-weight: 800;
+}
+#p2:hover {
+    color: purple;
+    font-size: 15px;
+    font-weight: 300;
+}
+#p2:active {
+    color: yellow;
+    font-size: 44px;
+    font-weight: 900;
+    text-shadow: 0px 0px 2px blue;
+}

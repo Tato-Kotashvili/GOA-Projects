@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playwrite+NZ+Basic+Guides&display=swap');
+a:link{
+    background-color: aqua;
+    color: purple;
+    font-family: "Edu NSW ACT Cursive", cursive;
+}

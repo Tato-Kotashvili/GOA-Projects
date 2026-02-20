@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Playwrite+NZ+Basic+Guides&display=swap');
+
+.li1:hover {
+    font-family: "Edu NSW ACT Cursive", cursive;
+    background-color: aqua;
+    text-transform: uppercase;
+}
+.li2:hover {
+    font-family: "Archivo Black", sans-serif;
+    background-color: red;
+    text-transform: uppercase;
+}
+.li3:hover {
+    font-family: "Playwrite NZ Basic Guides", cursive;
+    background-color: yellow;
+    text-transform: uppercase;
+}
