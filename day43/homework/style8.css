@@ -1,0 +1,15 @@
+#first {
+    list-style-type: decimal-leading-zero;
+}
+#second {
+    list-style-type: decimal;
+}
+#third {
+    list-style-type: georgian;
+}
+#fourth {
+    list-style-type: upper-roman;
+}
+#fifth {
+    list-style-type: lower-greek;
+}

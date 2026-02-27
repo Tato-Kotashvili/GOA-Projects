@@ -1,0 +1,13 @@
+table {
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+tr:nth-child(1) {
+    background-color: lime;
+}
+tr:nth-child(3) {
+    background-color: aqua;
+}
+tr:nth-child(5) {
+    background-color: aqua;
+}

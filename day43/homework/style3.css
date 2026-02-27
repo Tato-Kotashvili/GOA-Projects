@@ -1,0 +1,39 @@
+table {
+    border-collapse: collapse;
+}
+.num {
+    color: #000089;
+    background-color: rgb(209, 209, 3);
+}
+.Si {
+    color: #000089;
+    background-color: rgb(209, 139, 19);
+}
+.Pl {
+    color: #000089;
+    background-color: rgb(62, 171, 62);
+}
+.yelo {
+    background-color: rgb(208, 211, 5);
+}
+.boy {
+    background-color: rgb(185, 70, 70);
+}
+.dy {
+    background-color: rgb(186, 186, 21);
+}
+.red {
+    background-color: red;
+}
+.cy {
+    background-color: rgb(25, 186, 186);
+}
+.tab {
+    background-color: yellowgreen;
+}
+.grey {
+    background-color: grey;
+}
+.br {
+    background-color: brown;
+}

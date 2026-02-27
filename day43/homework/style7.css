@@ -1,0 +1,12 @@
+.def {
+    list-style-type: disc;
+}
+.empty {
+    list-style-type: circle;
+}
+.none {
+    list-style-type: none;
+}
+.square {
+    list-style-type: square;
+}

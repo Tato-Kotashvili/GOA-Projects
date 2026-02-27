@@ -1,0 +1,11 @@
+table {
+    border-collapse: collapse;
+    border-bottom: 1px solid rgb(37, 192, 119);
+}
+tr:nth-child(1) {
+    background-color: rgb(37, 192, 119);
+}
+tr:nth-child(3) {
+    color: rgb(37, 192, 119);
+    background-color: rgb(255, 250, 245);
+}

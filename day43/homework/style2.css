@@ -1,0 +1,7 @@
+table {
+    border-collapse: collapse;
+    border-color: aquamarine;
+}
+tr:nth-child(1) {
+    background-color: aqua;
+}
