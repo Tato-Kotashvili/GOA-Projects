@@ -1,0 +1,15 @@
+label {
+    color: red;
+}
+input[id='lastname'] {
+    background-color: red;
+}
+input[placeholder="Email Address"] {
+    color: red;
+}
+input {
+    border: 1px solid red;
+    border-radius: 15px;
+    outline: none;
+    margin-bottom: 5px;
+}

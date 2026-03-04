@@ -1,0 +1,8 @@
+label {
+    color: rgb(65, 141, 255);
+    text-shadow: 0px 1px 1px;
+    font-style: italic;
+}
+input {
+    outline: none;
+}
