@@ -1,0 +1,15 @@
+button {
+    border: 1px solid red;
+}
+#a {
+    padding: 40px
+}
+#b {
+    padding: 30px 20px;
+}
+#c {
+    padding: 10px 20px 50px 100px;
+}
+#d {
+    padding-bottom: 50px;
+}
