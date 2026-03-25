@@ -1,0 +1,7 @@
+ul {
+    border: 2px solid red;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}

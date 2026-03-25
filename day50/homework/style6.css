@@ -1,0 +1,15 @@
+.parent div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.parent {
+    width: 500px;
+    height: 520px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}

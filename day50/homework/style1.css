@@ -1,0 +1,14 @@
+.parent {
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+}
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}

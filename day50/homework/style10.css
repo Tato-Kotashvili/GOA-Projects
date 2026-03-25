@@ -1,0 +1,7 @@
+.parent {
+    width: 400px;
+    flex-wrap: wrap;
+}
+.child {
+    width: 120px;
+}

@@ -1,0 +1,15 @@
+.par {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: space-between;
+    justify-content: space-evenly; */
+}
+.ch {
+    width: 60px;
+    height: 60px;
+    background-color: purple;
+}
