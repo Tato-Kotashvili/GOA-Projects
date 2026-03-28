@@ -1,0 +1,21 @@
+.parent {
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.child {
+    height: 100px;
+    flex-basis: 250px;
+    background-color: aqua;
+}
+#one {
+    flex-shrink: 0;
+}
+#two {
+    flex-shrink: 30;
+}
+#three {
+    flex-shrink: 60;
+}

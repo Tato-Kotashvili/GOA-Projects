@@ -1,0 +1,20 @@
+.parent {
+    height: 400px;
+    width: 400px;
+    border: 2px solid red;
+    display: flex;
+}
+.child {
+    height: 75px;
+    width: 75px;
+    background-color: aqua;
+}
+#one {
+    align-self: end;
+}
+#two {
+    align-self: self-start;
+}
+#three {
+    align-self: center;
+}

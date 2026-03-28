@@ -1,0 +1,19 @@
+.parent{
+    width: 700px;
+    height: 700px;
+    border: 2px solid red;
+    display: flex;
+}
+.child {
+    height: 150px;
+    background-color: aqua;
+}
+#one {
+    flex-basis: 200px;
+}
+#two {
+    flex-basis: 200px;
+}
+#three {
+    flex-basis: 200px;
+}

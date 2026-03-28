@@ -1,0 +1,16 @@
+.parent {
+    width: 80%;
+    height: 500px;
+    border: 2px solid red;
+}
+.child {
+    background-color: aqua ;
+    width: 150px;
+    height: 200px;
+}
+#one {
+    flex-basis: 200px;
+}
+#two {
+    flex-grow: 1;
+}

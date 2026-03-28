@@ -1,0 +1,17 @@
+.parent {
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    display: flex;
+}
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.child:hover {
+    background-color: yellow;
+}
+#three:hover {
+    flex-grow: 1;
+}

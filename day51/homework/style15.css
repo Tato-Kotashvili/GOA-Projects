@@ -1,0 +1,32 @@
+.parent {
+    width: 80%;
+    height: 50px;
+    border: 2px solid lime;
+    display: flex;
+    justify-content: space-between;
+}
+img {
+    width: 75px;
+    height: 50px;
+    border: 1px solid lime;
+    flex-shrink: 1;
+    flex-shrink: 1;
+}
+.child {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 50;
+    border-right: 2px solid lime;
+}
+.buten {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 1;
+}

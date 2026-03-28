@@ -1,0 +1,18 @@
+.parent {
+    width: 100%;
+    border: solid 2px lime;
+    display: flex;
+}
+.menu {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: lime 2px solid;
+}
+img {
+    flex-shrink: 0;
+}
+button {
+    flex-shrink: 0;
+}

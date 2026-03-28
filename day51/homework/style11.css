@@ -1,0 +1,14 @@
+.parent {
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    display: flex;
+}
+.child {
+    height: 200px;
+    flex-basis: 200px;
+    background-color: aqua;
+}
+#two {
+    flex-shrink: 1;
+}

@@ -1,0 +1,15 @@
+.parent {
+    width: 700px;
+    height: 700px;
+    border: 2px solid red;
+    display: flex;
+}
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(182, 21, 21);
+    border: 2px solid green;
+}
+#two {
+    flex-grow: 1;
+}
