@@ -11,18 +11,18 @@ body {
     height: 100vh;
     font-family: "Inter", sans-serif;
     font-weight: bold;
+    align-items: center;
 }
 .parent {
-    height: 400px;
+    height: 450px;
     width: 250px;
     background-color: hsl(0, 0%, 12%);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: space-evenly;
     gap: 15px;
     border-radius: 10px;
-    margin: 150px;
 }
 img{
     width: 50px;
