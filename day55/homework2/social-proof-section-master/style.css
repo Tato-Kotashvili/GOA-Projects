@@ -66,6 +66,7 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-top: 18px;
+    margin-right: ;
 }
 .reviews p {
     color: hsl(300, 43%, 22%);
@@ -110,8 +111,8 @@ body {
 }
 .p1 {
     color: white;
-    font-weight: 500;
-    opacity: 90%;
+    font-weight: 600;
+    opacity: 80%;
     line-height: 1.5;
     font-size: 14px;
 }
