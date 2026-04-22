@@ -1,0 +1,19 @@
+body {
+    display: flex;
+}
+div {
+    width: 100px;
+    height: 100px;
+}
+.box_red {
+    background-color: red;
+}
+.box_green {
+    background-color: green;
+    position: relative;
+    right: 30px;
+    bottom: 20px;
+}
+.box_blue {
+    background-color: blue;
+}

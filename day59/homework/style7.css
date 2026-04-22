@@ -1,0 +1,22 @@
+
+div {
+    width: 75px;
+    height: 75px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: absolute;
+}
+.first {
+    top: 0;
+}
+.second {
+    top: 0;
+    right: 0;
+}
+.third {
+    bottom: 0;
+}
+.fourth {
+    bottom: 0;
+    right: 0;
+}

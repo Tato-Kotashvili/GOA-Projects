@@ -1,0 +1,13 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.norm {
+    position: static;
+}
+.notnorm {
+    position: relative;
+    left: 40px;
+}
+/* ერთი ჩვეულებრივ საწყის პოზიციაზეა ხოლო მეორე 40 პიქსელით მარცხნიდან წასულია */

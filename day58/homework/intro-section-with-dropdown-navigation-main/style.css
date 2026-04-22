@@ -67,14 +67,13 @@ h2 {
 .maindiv {
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
-    /* gap: 100px; */
-    padding: 40px 140px;
+    gap: 50px;
+    padding: 40px 100px 110px 160px;
 }
 #mainimg {
     width: 430px;
-    margin-left: 100px;
 }
 .textdiv {
     display: flex;
@@ -93,6 +92,7 @@ h2 {
 }
 h1 {
     font-size: 70px;
+    width: 460px;
 }
 .maindiv button {
     background-color: black;
@@ -109,5 +109,5 @@ h1 {
     line-height: 1.5;
 }
 .imgdiv img {
-    width: 100px;
+    width: 70px;
 }
