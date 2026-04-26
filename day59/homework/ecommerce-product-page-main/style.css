@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.body {
+    width: 76%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.parent1 {
+    width: 77%;
+    background-color: rgb(250, 250, 250);
+    height: 12.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.parent1 h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.child1 {
+    display: flex;
+    gap: 30px;
+    font-size: 13.7px;
+    opacity: 50%;
+    padding-right: 300px;
+}
+.child2 {
+    width: 11%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.child2 #ava {
+    width: 45px;
+    height: 45px;
+}
+.child2 img {
+    width: 20px;
+    height: 20px;
+    padding-left: 2px;
+}
+.parent2 {
+    width: 70%;
+    height: 63%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.big {
+    width: 100%;
+    border-radius: 15px;
+}
+.imgdiv img {
+    width: 78px;
+    border-radius: 10px;
+}
+.kid1 {
+    height: 100%;
+    width: 44%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.imgdiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.white {
+    width: 78px;
+    height: 78px;
+    border-radius: 10px;
+    border: 2px solid orange;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    opacity: 80%;
+}
+.kid2 {
+    width: 44%;
+    height: 100%;
+    border-radius: 20px;
+    padding-top: 43px;
+    display: flex;
+    flex-direction: column;
+}
+.first {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+}
+.first h1 {
+    font-size: 40px;
+    line-height: 1.1;
+    padding-bottom: 10px;
+}
+.first p {
+    font-size: 14.5px;
+    line-height: 1.6;
+    padding-top: 3px;
+    opacity: 50%;
+    font-weight: 400;
+}
+.first h5 {
+    padding-top: 7px;
+    font-weight: 700;
+    opacity: 50%;
+}
+.second {
+    width: 39%;
+    height: 15%;
+    margin-top: 23px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 3px;
+}
+.second h2 {
+    font-size: 27px;
+    padding-bottom: 3px;
+}
+.second h3 {
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    padding: 3px 9px;
+    border-radius: 6px;
+}
+.second h4 {
+    text-decoration: solid line-through;
+    opacity: 60%;
+    font-size: 14px;
+    font-weight: 600;
+}
+.third {
+    width: 100%;
+    height: 12%;
+    display: flex;
+    gap: 18px;
+    position: relative;
+    top: 25px;
+}
+.amount {
+    width: 35%;
+    height: 100%;
+    background-color: rgb(245, 244, 244);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    color: orange;
+}
+.amount .am {
+    font-size: 15px;
+    color: black;
+}
+button {
+    background-color: hsl(26, 100%, 55%);
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 61%;
+    gap: 15px;
+    border-radius: 8px;
+    border: none;
+}
+button img {
+    width: 16px;
+    height: 16px;
+}
