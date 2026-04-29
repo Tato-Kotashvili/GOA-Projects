@@ -1,0 +1,28 @@
+#green {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    z-index: 1;
+    background-color: green;
+}
+#blue {
+    height: 50px;
+    width: 130px;
+    position: relative;
+    z-index: 2;
+    background-color: blue;
+    right: 50px;
+}
+#red {
+    height: 75px;
+    width: 110px;
+    position: relative;
+    z-index: 3;
+    background-color: red;
+    right: 160px;
+    top: 20px;
+}
+body {
+    height: 100vh;
+    display: flex;
+}

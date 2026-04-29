@@ -1,0 +1,8 @@
+div {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 40px;
+    right: 0;
+}

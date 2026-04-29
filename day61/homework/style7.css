@@ -1,0 +1,31 @@
+.first {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: relative;
+    z-index: 2;
+    top: 30px;
+    opacity: 50%;
+}
+.second {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    z-index: 3;
+    bottom: 50px;
+    left: 70px;
+    opacity: 50%;
+}
+.third {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    z-index: 1;
+    bottom: 100px;
+}
+body {
+    display: flex;
+    flex-direction: column;height: 100vh;
+}
