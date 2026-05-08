@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.body {
+    width: 76%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+}
+.kartas {
+    height: 100%;
+    width: 33.5%;
+    background: url(./images/bg-main-desktop.png) repeat center/cover;
+}
+#front {
+    background: url(./images/bg-card-front.png) repeat center/cover;
+    position: relative;
+    top: 150px;
+    left: 135px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 45px;
+}
+#back {
+    position: relative;
+    top: 180px;
+    left: 210px;
+    background: url(images/bg-card-back.png) repeat center/cover;
+}
+.cards {
+    width: 359px;
+    height: 200px;
+    border-radius: 9px;
+}
+#front img {
+    width: 68px;
+}
+.nums h1 {
+    color: white;
+    font-size: 24px;
+    opacity: 60%;
+    font-weight: 500;
+}
+.nums {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+}
+.nums h4 {
+    font-size: 13px;
+    color: white;
+    opacity: 50%;
+    font-weight: 500;
+}
+#back h4 {
+    color: white;
+    position: relative;
+    top: 45%;
+    left: 80%;
+    font-size: 13px;
+    font-weight: 500;
+}
+.form {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 280px;
+}
+.form h5 {
+    font-size: 13px;
+}
+input {
+    width: 310px;
+    height: 37px;
+    border-radius: 5px;
+    border: none;
+    border-collapse: collapse;
+}
