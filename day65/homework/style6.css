@@ -1,0 +1,11 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition: scale 0.15s,rotate 2.4s,background-color 1.3s ;
+}
+div:active {
+    scale: 50%;
+    rotate: 90deg;
+    background-color: red;
+}

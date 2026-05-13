@@ -1,0 +1,8 @@
+button {
+   transition: all 4s;
+   transition-delay: 2s;
+}
+button:active {
+    scale: 0.9;
+    rotate: 45deg;
+}

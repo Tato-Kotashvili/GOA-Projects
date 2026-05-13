@@ -1,0 +1,14 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition-property: box-shadow;
+    transition: rotate 0.8s,color 0.3s,transform 0.5s,box-shadow 1s ;
+    transition-delay: 0.2s;
+}
+div:hover {
+    rotate: 90deg;
+    color: red;
+    transform: translateX(-110px);
+    box-shadow: 3px 3px 4px yellow;
+}

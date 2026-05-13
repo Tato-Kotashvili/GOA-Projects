@@ -1,0 +1,9 @@
+button {
+    transition: color 0.2s,border-radius 0.5s,background-color 0.7s;
+    transition-delay: 0.3s;
+}
+button:hover {
+    color: yellow;
+    border-radius: 15px;
+    background-color: blue;
+}

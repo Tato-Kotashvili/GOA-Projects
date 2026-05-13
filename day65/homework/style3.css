@@ -1,0 +1,11 @@
+div {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    transition: scale 0.5s,box-shadow 0.8s,translateY 0.4s;
+}
+div:hover {
+    scale: 110%;
+    box-shadow: 5px 5px 3px blue;
+    translate: -20px;
+}

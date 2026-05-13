@@ -1,0 +1,9 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition: scale 0.4s;
+}
+div:hover {
+    scale: 1.2;
+}

@@ -1,0 +1,8 @@
+button {
+    animation: anim 1.2s ease-in-out infinite 0.1s;
+}
+@keyframes anim {
+    25% {scale: 150%;}
+    83% {box-shadow: 5px 5px red;}
+    100% {color: blue;}
+}

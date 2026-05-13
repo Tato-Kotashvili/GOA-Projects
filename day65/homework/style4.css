@@ -1,0 +1,10 @@
+img {
+    transition: opacity 0.5s,scale 0.7,rotate 1.2s;
+    transition-property: rotate;
+    transition-delay: 0.4s;
+}
+img:hover {
+    opacity: 40%;
+    scale: 130%;
+    rotate: 120deg;
+}
