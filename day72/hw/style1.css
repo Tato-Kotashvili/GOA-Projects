@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* მთავარი კონტეინერის სტილი (ფონი და ცენტრირება) */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #3b74f2;
+    /* სურათის მსგავსი ლურჯი ფონი */
+}
+
+/* სპინერის ძირითადი კონტეინერი */
+.spinner {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+/* წერტილების (დივების) საერთო სტილი */
+.dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    /* ყველა დივი არის თეთრი */
+    border-radius: 50%;
+
+    /* წერტილების ცენტრიდან გადანაცვლება */
+    top: 0;
+    left: 65px;
+    /* (კონტეინერის სიგანე / 2) - (წერტილის სიგანე / 2) */
+    transform-origin: 10px 75px;
+    /* ბრუნვის ცენტრი: (წერტილის რადიუსი) და (კონტეინერის რადიუსი) */
+}
+
+
+.dot:nth-child(1) {
+    transform: rotate(0deg);
+    animation: anim 1s linear infinite alternate;
+}
+
+.dot:nth-child(2) {
+    transform: rotate(24deg);
+    animation: anim 1s 0.09s linear infinite alternate;
+}
+
+.dot:nth-child(3) {
+    transform: rotate(48deg);
+    animation: anim 1s 0.18s linear infinite alternate;
+}
+
+.dot:nth-child(4) {
+    transform: rotate(72deg);
+    animation: anim 1s 0.27s linear infinite alternate;
+}
+
+.dot:nth-child(5) {
+    transform: rotate(96deg);
+    animation: anim 1s 0.36s linear infinite alternate;
+}
+
+.dot:nth-child(6) {
+    transform: rotate(120deg);
+    animation: anim 1s 0.45s linear infinite alternate;
+}
+
+.dot:nth-child(7) {
+    transform: rotate(144deg);
+    animation: anim 1s 0.54s linear infinite alternate;
+}
+
+.dot:nth-child(8) {
+    transform: rotate(168deg);
+    animation: anim 1s 0.63s linear infinite alternate;
+}
+
+.dot:nth-child(9) {
+    transform: rotate(192deg);
+    animation: anim 1s 0.72s linear infinite alternate;
+}
+
+.dot:nth-child(10) {
+    transform: rotate(216deg);
+    animation: anim 1s 0.81s linear infinite alternate;
+}
+
+.dot:nth-child(11) {
+    transform: rotate(240deg);
+    animation: anim 1s 0.9s linear infinite alternate;
+}
+
+.dot:nth-child(12) {
+    transform: rotate(264deg);
+    animation: anim 1s 0.99s linear infinite alternate;
+
+}
+.dot:nth-child(13) {
+    transform: rotate(288deg);
+    animation: anim 1s 1.08s linear infinite alternate;
+
+}.dot:nth-child(14) {
+    transform: rotate(312deg);
+    animation: anim 1s 1.17s linear infinite alternate;
+
+}.dot:nth-child(15) {
+    transform: rotate(336deg);
+    animation: anim 1s 1.26s linear infinite alternate;
+
+}
+
+@keyframes anim {
+    0% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 3%;
+    }
+}

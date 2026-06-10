@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.meet {
+    width: 119px;
+    height: 28px;
+    position: relative;
+    top: 80px;
+    left: 661px;
+    justify-content: center;
+}
+.gc {
+    width: 1504px;
+    height: 358px;
+    position: relative;
+    top: 169px;
+    left: -32px;
+    display: flex;
+    gap: 88px;
+}
+.texts {
+    width: 540px;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.img2 {
+    position: relative;
+    right: -32px;
+}
+.texts h1 {
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 0px;
+    width: 445px;
+    font-weight: 900;
+}
+.texts p {
+    font-size: 18px;
+    line-height: 26px;
+    width: 540px;
+    text-align: center;
+    color: #87879D;
+}
+.b1 {
+    width: 193px;
+    height: 58px;
+    border-radius: 29px;
+    border: none;
+    background-color: #4D96A9;
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+}
+.b2 {
+    width: 139px;
+    height: 58px;
+    border-radius: 29px;
+    background-color: #855FB1;
+    border: none;
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+}
+span {
+    color: #8FE3F9;
+}
