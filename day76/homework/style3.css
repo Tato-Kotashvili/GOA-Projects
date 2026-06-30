@@ -1,0 +1,23 @@
+.parent {
+    width: 600px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: 150px 150px;
+    gap: 5px;
+}
+.pink {
+    background-color: rgb(255, 0, 60);
+    grid-row-end: span 2;
+    grid-column-end: span 2;
+}
+.orange {
+    background-color: orange;
+    grid-column-end: span 2;
+}
+.purple {
+    background-color: purple;
+}
+.gray {
+    background-color: rgb(91, 90, 128);
+}

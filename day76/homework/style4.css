@@ -1,0 +1,20 @@
+.parent {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 20px;
+}
+.parent div {
+    background-color: rgb(255, 0, 60);
+}
+.n2 {
+    grid-column-end: span 2;
+}
+.n3 {
+    grid-column-end: span 2;
+}
+.n4 {
+    grid-row-end: span 2;
+}
