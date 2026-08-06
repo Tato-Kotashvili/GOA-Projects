@@ -1,0 +1,8 @@
+:root {
+    --color: yellow;
+    --font-size: 60px;
+}
+h1 {
+    color: var(--color);
+    font-size: var(--font-size);
+}

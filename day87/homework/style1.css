@@ -1,0 +1,8 @@
+:root {
+    --background-color: yellow;
+}
+div {
+    background-color: var(--background-color);
+    width: 500px;
+    height: 500px;
+}

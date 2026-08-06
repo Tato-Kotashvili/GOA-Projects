@@ -1,0 +1,14 @@
+:root {
+    --color: yellow;
+    --font: 30px;
+    --border-radius:10px;
+    --background-color:grey;
+    --font-weight: 700;
+}
+button {
+    color: var(--color);
+    font: var(--font);
+    border-radius: var(--border-radius);
+    background-color: var(--background-color);
+    font-weight: var(--font-weight);
+}
