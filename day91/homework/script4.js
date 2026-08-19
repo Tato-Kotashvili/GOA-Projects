@@ -1,5 +1,5 @@
 let username = 'adminGoga'
-if(username == '') {
+if(!username) {
     console.log('Username is empty')
 }
 else if(username.startsWith('admin')) {
