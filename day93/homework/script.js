@@ -5,6 +5,8 @@ function calculatePrice(price, quantity = 1){
 console.log(calculatePrice(10, 8))
 console.log(calculatePrice(20))
 console.log(calculatePrice(800, 2))
+
+
 // N2
 function getResult(name, score = 0) {
     score >= 90 && score <= 100 ?
@@ -26,6 +28,9 @@ getResult('tato', 75)
 getResult('tato', 90)
 getResult('tato', 1000)
 getResult('tato')
+
+
+
 // M4
 function checkAge(name, age = 18) {
     switch(true){
@@ -44,6 +49,9 @@ console.log(checkAge('goga', 23))
 console.log(checkAge('goga', 16))
 console.log(checkAge('goga'))
 console.log(checkAge('goga', 'c'))
+
+
+
 // N3
 function calculateShipping(price, shipping = 10) {
     if(price >= 100) {
@@ -56,6 +64,9 @@ function calculateShipping(price, shipping = 10) {
 console.log(calculateShipping(200, 20))
 console.log(calculateShipping(90, 30))
 console.log(calculateShipping(80))
+
+
+
 // N5
 function addPoints(score, points = 10) {
     return score + points
@@ -63,18 +74,26 @@ function addPoints(score, points = 10) {
 console.log(addPoints(100, 20))
 console.log(addPoints(90))
 
+
+
 // N6
 function createMessage(name, message = 'Hello') {
     return `${message}, ${name}!`
 }
 console.log(createMessage('Goga', 'Welcome'))
 console.log(createMessage('Goga'))
+
+
+
 // N7
 function calculateDiscount(price, discount = 10) {
     return price - discount
 }
 console.log(calculateDiscount(200))
 console.log(calculateDiscount(200, 80))
+
+
+
 // N8
 function convertTemperature(value, type = "C") {
     switch(type) {
@@ -91,6 +110,9 @@ function convertTemperature(value, type = "C") {
 convertTemperature(30, 'C')
 convertTemperature(30)
 convertTemperature(59, 'F')
+
+
+
 // N9
 function calculateSalary(salary, bonus = 0) {
     salary < 1000 ?
@@ -101,6 +123,9 @@ function calculateSalary(salary, bonus = 0) {
 calculateSalary(800, 100)
 calculateSalary(1500, 200)
 calculateSalary(900)
+
+
+
 // N10
 function checkExam(name, score = 0) {
     switch(true) {
@@ -129,6 +154,9 @@ checkExam('tato', 75)
 checkExam('tato', 65)
 checkExam('tato', 51)
 checkExam('tato', -5)
+
+
+
 // N11
 function ticketPrice(age, price = 50) {
     switch(true) {
@@ -150,6 +178,9 @@ ticketPrice(10, 50)
 ticketPrice(25, 50)
 ticketPrice(65, 50)
 ticketPrice(20)
+
+
+
 // N12
 function analyzeNumber(number, limit = 100) {
     number < 0 ?
