@@ -92,7 +92,7 @@ console.log(updateProducts(products))
 
 
 
-// N8 ????
+// N8
 let store = [
     [
         "Electronics",
