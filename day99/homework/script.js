@@ -30,8 +30,7 @@ let messages = [
 ]
 let count = 0
 for(let i = 0; i < messages.length; i++){
-    messages[i] = messages[i].trim()
-    messages[i] = messages[i].toLowerCase()
+    messages[i] = messages[i].trim().toLowerCase()
     if(messages[i].includes("javascript")){
         console.log("JavaScript message found")
         count++
@@ -237,8 +236,6 @@ for(let i = 0; i < products.length; i++){
         console.log('Low sales:', products[i])
         sumn += prices1[i] * quantities[i]
     }
-}
-for(let i = 0; i < products.length; i++){
     if(quantities[i] > 10){
         c++
     }
