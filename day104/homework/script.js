@@ -172,16 +172,10 @@ let play2 = 0
 for(let i = 0; i < 3; i++){
     if(Math.floor(Math.random() * 10) + 1 == 10){
         play1 += Math.floor(Math.random() * 10) + 1 + 5
-    }
-    else if(Math.floor(Math.random() * 10) + 1 > 5){
-        play1 += Math.floor(Math.random() * 10) + 1 + 3
-    }
-}
-for(let i = 0; i < 3; i++){
-    if(Math.floor(Math.random() * 10) + 1 == 10){
         play2 += Math.floor(Math.random() * 10) + 1 + 5
     }
     else if(Math.floor(Math.random() * 10) + 1 > 5){
+        play1 += Math.floor(Math.random() * 10) + 1 + 3
         play2 += Math.floor(Math.random() * 10) + 1 + 3
     }
 }
