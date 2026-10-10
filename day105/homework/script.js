@@ -157,6 +157,7 @@ let newNums = nums.map(num => {
     }
     else if(num >= 10 && num <= 20){
         num *= 2
+        num += 2
     }
     else{
         num -= 5
