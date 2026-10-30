@@ -56,13 +56,13 @@ console.log(newNums1)
 console.log('                 7')
 
 let li = ["apple", "banana", "cherry", "date", "avocado"]
-let newLi = li.filter(it => it.startsWith('a'))
+let newLi = li.filter(it => it.includes('a'))
 console.log(newLi)
 
 
 
 // N8
-console.log('                 9')
+console.log('                 8')
 
 let l = [10, "ვაშლი", true, 25, "მსხალი", false, 50]
 let st = l.filter(i => i === String(i))
